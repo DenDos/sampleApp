@@ -4,6 +4,6 @@
 $ ->
   $("#micropost_content").keyup ->
     textCount = this.value.length
-    alert textCount
+    ##alert textCount
     displayCount = 150-textCount
     asd = $(this).next().find("span").text(displayCount)
